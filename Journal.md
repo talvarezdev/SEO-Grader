@@ -63,11 +63,11 @@ built the persistence layer to demonstrate both a sql and hibernate dao. Only
 2/5/2016
 
 Designed and created all the tables today. IntelliJ's database view is even 
-better than I thought. Originally I named a table "user" and decided I wanted
+better than I thought. Originally I named a table "com.seograder.entity.user" and decided I wanted
  to call it "users" instead.  I already had a dao written (as a demo for 
- class) with sql referring to "user". Changing the name of the table in the 
+ class) with sql referring to "com.seograder.entity.user". Changing the name of the table in the 
  database few, prompted the change automatically in the dao. How cool is 
- that?! It did not, however change user to users in the hibernate.cfg.xml, 
+ that?! It did not, however change com.seograder.entity.user to users in the hibernate.cfg.xml, 
  but I have to wonder if there isn't a plugin that might handle making the 
  changes in the hibernate configs too. If not, it could be a useful addition.
   Ooh, writing plugins for IDEs - possible independent research topic. 

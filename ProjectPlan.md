@@ -28,10 +28,10 @@
 ### Week 4
 - [ ] Complete remaining JSPs
 - [ ] Add Hibernate config
-- [ ] Create DAO for user crud
+- [ ] Create DAO for com.seograder.entity.user crud
 - [ ] Add unit tests for DAO
-- [ ] Add user login  
-- [ ] Add user registration
+- [ ] Add com.seograder.entity.user login  
+- [ ] Add com.seograder.entity.user registration
 - [ ] Time log entries
 - [ ] Add Maven for building
 - [ ] Add entities for remaining tables
