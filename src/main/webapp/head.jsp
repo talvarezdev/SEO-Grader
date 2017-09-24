@@ -27,6 +27,6 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.js"></script>
 
     <!-- The next two items are to support jQuery data tables.  Learn more about datatables here: https://datatables.net -->
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.datatables.css">
-    <script type="text/javascript" charset="utf8" src="cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 </head>
