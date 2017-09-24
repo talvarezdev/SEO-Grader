@@ -1,3 +1,6 @@
+com\seograder\persistence\UserHibernateDao.class
+com\seograder\utility\LocalDateAttributeConverter.class
+com\seograder\controller\SearchUser.class
 com\seograder\entity\User.class
 com\seograder\persistence\Database.class
-com\seograder\utility\LocalDateAttributeConverter.class
+com\seograder\persistence\SessionFactoryProvider.class
