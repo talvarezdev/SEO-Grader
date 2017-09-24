@@ -1,14 +1,29 @@
 package com.seograder.entity;
 
+import com.seograder.utility.LocalDateAttributeConverter;
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name = "user")
+
 public class User {
+    /* Note: if I did not use the exact same table name I would have to use @Column (name = "id") annotation */
+
+    @Id // Denotes that this is the primary key
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy = "increment")
     private int id;
+
     private String Email;
     private String userPassword;
     private String FirstName;
     private String LastName;
     private String PermissionType;
+
+    @Convert (converter = LocalDateAttributeConverter.class)
     private LocalDate createDate;
 
     /**
