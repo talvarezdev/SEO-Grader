@@ -5,10 +5,10 @@
   Time: 11:34 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="taglib.jsp"%>
 <c:set var="title" value="Search Results"  />
 <%@include file="head.jsp"%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <script type="text/javascript" class="init">
     $(document).ready( function () {

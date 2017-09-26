@@ -8,7 +8,6 @@ import java.time.LocalDate;
 
 @Entity
 @Table(name = "user")
-
 public class User {
     /* Note: if I did not use the exact same table name I would have to use @Column (name = "id") annotation */
 
@@ -17,10 +16,19 @@ public class User {
     @GenericGenerator(name = "increment", strategy = "increment")
     private int id;
 
+    @Column(name = "Email")
     private String Email;
+
+    @Column(name = "userPassword")
     private String userPassword;
+
+    @Column(name = "FirstName")
     private String FirstName;
+
+    @Column(name = "LastName")
     private String LastName;
+
+    @Column(name = "PermissionType")
     private String PermissionType;
 
     @Convert (converter = LocalDateAttributeConverter.class)

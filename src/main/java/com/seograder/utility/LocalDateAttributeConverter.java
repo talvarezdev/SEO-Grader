@@ -1,7 +1,6 @@
 package com.seograder.utility;
 
 import javax.persistence.AttributeConverter;
-import javax.persistence.Convert;
 import javax.persistence.Converter;
 import java.sql.Date;
 import java.time.LocalDate;
